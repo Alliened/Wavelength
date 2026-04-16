@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wavelength – Literary Magazine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts (you can change these later) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Special+Elite&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background pattern -->
+  <div class="wavelength-background"></div>
+
+  <!-- Hero / Header block -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-frame">
+        <div class="hero-title-wrapper">
+          <span class="hero-wave-left" aria-hidden="true">~ ~ ~</span>
+          <h1 class="hero-title">Wavelength</h1>
+          <span class="hero-wave-right" aria-hidden="true">~ ~ ~</span>
+        </div>
+        <p class="hero-tagline">
+          A literary magazine for minds on a different wavelength.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main navigation (scrapbook / journal style) -->
+  <nav class="main-nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+
+      <li class="nav-item has-submenu">
+        <a href="about.html" class="nav-link">About</a>
+        <ul class="submenu">
+          <li><a href="about-background.html">Background</a></li>
+          <li><a href="about-mission.html">Mission</a></li>
+          <li><a href="about-founder.html">Meet the Founder</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item has-submenu">
+        <a href="magazine.html" class="nav-link">Magazine</a>
+        <ul class="submenu">
+          <li><a href="magazine-submissions.html">Submissions</a></li>
+          <li><a href="magazine-current.html">Current Issue</a></li>
+          <li><a href="magazine-archive.html">Archive</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item has-submenu">
+        <a href="resources.html" class="nav-link">Resources</a>
+        <ul class="submenu">
+          <li><a href="resources-autism.html">What Is Autism</a></li>
+          <li><a href="resources-links.html">Helpful Links</a></li>
+          <li><a href="resources-faq.html">FAQs</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item has-submenu">
+        <a href="blog.html" class="nav-link">Blog</a>
+        <ul class="submenu">
+          <li><a href="blog-archive.html">Archive</a></li>
+          <li><a href="blog-become-writer.html">Become a Writer</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item has-submenu">
+        <a href="contact.html" class="nav-link">Contact</a>
+        <ul class="submenu">
+          <li><a href="contact-volunteer.html">Volunteer</a></li>
+          <li><a href="contact-donate.html">Donate</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="page-main">
+    <!-- Current issue hero image -->
+    <section class="current-issue">
+      <figure class="issue-figure">
+        <!-- Swap this image source per issue -->
+        <img src="assets/images/current-issue-placeholder.jpg"
+             alt="Artwork for the current issue of Wavelength"
+             class="issue-image" />
+      </figure>
+      <div class="issue-title-block">
+        <h2 class="issue-title">
+          Current Issue: <span contenteditable="true">[Title of the Current Issue]</span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- Updates / basic info (diary-like body text) -->
+    <section class="updates">
+      <div class="paper-card card-main">
+        <h3 class="section-heading">Updates & Notes from the Editor</h3>
+        <p>
+          Welcome to <strong>Wavelength</strong>, a literary magazine centering voices that have always felt
+          slightly out of phase with the “usual” frequency. Here, being on a different wavelength
+          isn’t something to fix—it’s the whole point.
+        </p>
+        <p>
+          Use this space for announcements, submission windows, content warnings, or anything your
+          readers should know at a glance. You can rewrite all of this directly in the HTML file.
+        </p>
+      </div>
+
+      <div class="updates-grid">
+        <article class="paper-card card-small">
+          <h4>Submission Window</h4>
+          <p>
+            Now accepting poetry, short fiction, creative nonfiction, hybrid work, and visual art
+            for the next issue. Check the <strong>Submissions</strong> page for guidelines.
+          </p>
+        </article>
+
+        <article class="paper-card card-small">
+          <h4>Theme Teaser</h4>
+          <p>
+            This issue explores what it means to tune in, tune out, and re‑tune your life when the
+            world feels too loud or not loud enough.
+          </p>
+        </article>
+
+        <article class="paper-card card-small">
+          <h4>Accessibility & Sensory Notes</h4>
+          <p>
+            We aim for clear navigation, minimal motion, and readable contrast. If something feels
+            off or inaccessible, please let us know via the <strong>Contact</strong> page.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Optional askew image spots (scrapbook feel) -->
+    <section class="scrapbook-gallery">
+      <div class="scrapbook-item tilt-left">
+        <img src="assets/images/scrap-1-placeholder.jpg"
+             alt="Collage-style image related to the magazine"
+             />
+      </div>
+      <div class="scrapbook-item tilt-right">
+        <img src="assets/images/scrap-2-placeholder.jpg"
+             alt="Collage-style image related to the magazine"
+             />
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with social links styled like the nav -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-social">
+        <div class="footer-label">Find Wavelength Elsewhere</div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <span class="social-icon">🎵</span>
+              <span class="social-text">TikTok</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <span class="social-icon">📸</span>
+              <span class="social-text">Instagram</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <span class="social-icon">💼</span>
+              <span class="social-text">LinkedIn</span>
+            </a>
+          </li>
+          <!-- Add more as needed -->
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>&copy; <span id="year"></span> Wavelength Literary Magazine. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
